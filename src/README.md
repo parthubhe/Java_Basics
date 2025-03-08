@@ -1,9 +1,14 @@
-Assignment 06: Interfaces
-📌 Description
-This project demonstrates the use of interfaces and abstract classes in Java by modeling various types of ducks and their behaviors. The design follows the strategy pattern, allowing dynamic changes in duck behaviors (flying, quacking, swimming) at runtime.
+Assignment 06: Interfaces 
 
-📂 File Structure
-1️⃣ Main.java
+📌 Description 
+
+This project demonstrates the use of interfaces and abstract classes in Java by modeling various types of ducks and their behaviors. The design follows the strategy pattern, allowing dynamic changes in duck behaviors (flying, quacking, swimming) at runtime. 
+
+
+📂 File Structure 
+
+1️⃣ Main.java 
+
 Purpose:
 
 The entry point of the application.
@@ -12,8 +17,10 @@ Key Methods:
 
 public static void main(String[] args)
 Instantiates various duck types (MallardDuck, RubberDuck, RedHeadDuck, DecoyDuck)
-Calls methods: display(), performQuack(), performSwim(), isFlying()
-2️⃣ Duck.java (Abstract Class)
+Calls methods: display(), performQuack(), performSwim(), isFlying() 
+
+2️⃣ Duck.java (Abstract Class) 
+
 Purpose:
 
 Serves as the base class for all duck types.
@@ -31,8 +38,10 @@ setQuackBehavior(QuackBehavior quackBehavior) and getQuackBehavior()
 performQuack() – delegates quack action
 setSwimBehavior(SwimBehavior swimBehavior) and performSwim()
 isFlying() – delegates flying action
-abstract void display() – each subclass must implement its own display
-3️⃣ Duck Subclasses
+abstract void display() – each subclass must implement its own display 
+
+3️⃣ Duck Subclasses 
+
 MallardDuck.java
 Purpose:
 
@@ -58,8 +67,10 @@ Purpose:
 
 Represents a decoy duck, used mainly to mimic quacking behavior.
 Key Method:
-display() – prints "DecoyDuck"
-4️⃣ Behavior Interfaces and Implementations
+display() – prints "DecoyDuck" 
+
+4️⃣ Behavior Interfaces and Implementations 
+
 FlyBehavior Interface & Implementations
 FlyBehavior.java
 
