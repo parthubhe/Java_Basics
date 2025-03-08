@@ -101,3 +101,8 @@ Implements swim() to print "Swimming"
 Floating.java
 
 Implements swim() to print "Floating"
+
+
+RelationshipDiagram: 
+![realtionship_Diagram](https://github.com/user-attachments/assets/4fe53a25-b27e-4ec3-8c67-9762db03a158)
+
